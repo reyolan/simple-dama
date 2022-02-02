@@ -1,0 +1,33 @@
+$inside-border-style-color: solid black 2px;
+
+@mixin border-left-top-bottom {
+	border-left: $inside-border-style-color;
+	border-top: $inside-border-style-color;
+	border-bottom: $inside-border-style-color;
+}
+
+@mixin border-right-top-bottom {
+	border-right: $inside-border-style-color;
+	border-top: $inside-border-style-color;
+	border-bottom: $inside-border-style-color;
+}
+
+@mixin border-right-top {
+	border-right: $inside-border-style-color;
+	border-top: $inside-border-style-color;
+}
+
+@mixin border-left-top {
+	border-left: $inside-border-style-color;
+	border-top: $inside-border-style-color;
+}
+
+@mixin border-left-bottom {
+	border-left: $inside-border-style-color;
+	border-bottom: $inside-border-style-color;
+}
+
+@mixin border-right-bottom {
+	border-right: $inside-border-style-color;
+	border-bottom: $inside-border-style-color;
+}

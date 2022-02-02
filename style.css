@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+body #container {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 600px;
+  background: #dec7a6;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+}
+.row div {
+  width: 100px;
+  height: 100px;
+}
+.row div:nth-child(3) {
+  border-right: solid black 2px;
+}
+.row .middle-left {
+  border-left: solid black 2px;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+}
+.row .middle-right {
+  border-right: solid black 2px;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+}
+.row .upper-left {
+  border-left: solid black 2px;
+  border-top: solid black 2px;
+}
+.row .upper-right {
+  border-right: solid black 2px;
+  border-top: solid black 2px;
+}
+.row .lower-left {
+  border-left: solid black 2px;
+  border-bottom: solid black 2px;
+}
+.row .lower-right {
+  border-right: solid black 2px;
+  border-bottom: solid black 2px;
+}
+
+/*# sourceMappingURL=style.css.map */
