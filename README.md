@@ -1,3 +1,3 @@
 # simple-dama
 
-Demonstrates the usage of flexbox through recreating Dama / Filipino Checkers board
+Demonstrates the usage of flexbox through recreation of Dama / Filipino Checkers board
